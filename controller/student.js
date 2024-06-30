@@ -1,6 +1,7 @@
-const studentSchema=require('../model/student');
 const express=require('express');
 const router=express.Router();
+const studentSchema=require('../model/student');
+
 
 router.post('/studentlist',async (req,res)=>{
     try {

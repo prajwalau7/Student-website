@@ -10,10 +10,8 @@ mongoose.connect('mongodb://localhost/RishiAnna')
     console.log("Error while connecting",err)
 })
 
-// const studentSchema=require('./model/student');
-// const studentlist=require('./controller/student');
 
-app.use(require('./model/student'));
+
 app.use(require('./controller/student'));
 
 app.listen(port,()=>{
