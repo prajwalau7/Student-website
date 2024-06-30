@@ -12,5 +12,6 @@ const studentSchema=new mongoose.Schema({
         area:String
     }
 })
+//hello 
 
 module.exports=mongoose.model("Student",studentSchema);
